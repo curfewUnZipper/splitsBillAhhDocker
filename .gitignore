@@ -1,0 +1,93 @@
+# =========================
+
+# Java / Maven
+
+# =========================
+
+target/
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+
+# IDEs
+
+# =========================
+
+# IntelliJ
+
+.idea/
+*.iml
+
+# VS Code
+
+.vscode/
+
+# Eclipse
+
+.project
+.classpath
+.settings/
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Environment / Secrets
+
+# =========================
+
+.env
+.env.*
+*.env
+
+# =========================
+
+# Docker
+
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+
+# Logs
+
+# =========================
+
+logs/
+*.out
+
+# =========================
+
+# Build artifacts (extra safety)
+
+# =========================
+
+backend/target/
+backend/*.jar
+
+# =========================
+
+# Node (if you add Angular later)
+
+# =========================
+
+node_modules/
+dist/
+
